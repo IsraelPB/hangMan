@@ -1,0 +1,60 @@
+body{
+    color: rgb(86, 127, 165);
+    background-color: rgb(27, 42, 56);
+    background-image: url("../images/ff7backGround.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: left bottom;
+}
+
+.background{
+background-color: rgb(63, 85, 105);
+background-image: url("../images/ff7backGround1.jpg");
+background-size: cover;
+background-blend-mode: multiply;
+background-position:left bottom;
+}
+
+#new-game-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(47, 118, 129);
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(27, 42, 56);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px rgb(39, 90, 138);
+
+}
+
+#new-game-button:hover{
+    box-shadow: 0 4px rgb(27, 42, 56);
+    top:2px;
+
+}
+
+#placeholder-section {
+    background-color:rgb(27, 42, 56); 
+    background-image: url("../images/ff7backGround.jpg");
+    background: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+#new-game-button:active{
+    box-shadow: 0 0px rgb(27, 42, 56);
+    top:2px;
+
+}
